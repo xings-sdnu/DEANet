@@ -3,13 +3,13 @@
 Pytorch implementation for Saliency Detection Framework Based on Deep Enhanced Attention Network (ICONIP 2021)]
 
 # Requirements
-* Python 3.6 <br>
-* Pytorch 1.5.0 <br>
-* Torchvision 0.6.1 <br>
-* Cuda 10.0
+* Python 3.7 <br>
+* Pytorch 1.8.1 <br>
+* Torchvision 0.9.1 <br>
+* Cuda 11.0
 
 # Usage
-This is the Pytorch implementation of DEANet. It has been trained and tested on Windows (Win10 + Cuda 10 + Python 3.6 + Pytorch 1.5),
+This is the Pytorch implementation of DEANet. It has been trained and tested on Windows (Win10 + Cuda 11 + Python 3.7 + Pytorch 1.8.1),
 and it should also work on Linux but we didn't try. 
 
 ## To Train 
@@ -34,10 +34,10 @@ The training log is saved in the 'log' folder. If you want to see the learning c
 [vgg_conv1](https://pan.baidu.com/s/1CJyNALzPIAiHrDSMcRO2yA), password: rllb<br>
 
 # Trained model for testing
-Baidu Pan: [JL-DCF-pytorch](https://pan.baidu.com/s/1KoxUvnnM5zJoFPEkrv7b1Q), password: jdpb<br>
+Baidu Pan: [DEANet-pytorch](https://pan.baidu.com/s/1KoxUvnnM5zJoFPEkrv7b1Q), password: jdpb<br>
 Google Drive: https://drive.google.com/open?id=12u37yz-031unDPJoKaZ0goK8BtPP-6Cj<br>
 
-# JL-DCF-pytorch saliency maps
+# DEANet-pytorch saliency maps
 Baidu Pan: [Saliency maps](https://pan.baidu.com/s/1IzAjbbhoAdhsg-2B_gSwqw), password: 4nqr<br>
 Google Drive: https://drive.google.com/open?id=1mHMN36aI5zNt50DQBivSDyYvCQ9eeGhP<br>
 
@@ -50,44 +50,44 @@ Google Drive:<br>
 [Testing datadet](https://drive.google.com/open?id=18ALe_HBuNjVTB_US808d8ZKfpd_mwLy5)<br>
 
 # Performance
-Below is the performance of JL-DCF-pyotrch (Pytorch implementation). Generally, the performance of Pytorch implementation is comparable to, and even slightly better than the previous [Caffe implementation](https://github.com/kerenfu/JLDCF/) reported in the paper. This is probably due to the differences between deep learning platforms. Also, due to the randomness in the training process, the obtained results will fluctuate slightly.
+Below is the performance of DEANet-pyotrch (Pytorch implementation). Due to the randomness in the training process, the obtained results will fluctuate slightly.
 
 | Datasets | Metrics | Pytorch |
 | -------- | ------- | ------- |
 | NJU2K    |S-measure| 0.917   |
-|          | maxF    | 0.919   |
-|          | maxE    | 0.950   |
-|          | MAE     | 0.037   |
-| NLPR     |S-measure| 0.931   |
-|          | maxF    | 0.920   |
-|          | maxE    | 0.964   |
-|          | MAE     | 0.022   |
-| STERE    |S-measure| 0.906   |
-|          | maxF    | 0.903   |
-|          | maxE    | 0.946   |
-|          | MAE     | 0.040   |
-| RGBD135  |S-measure| 0.934   |
-|          | maxF    | 0.928   |
-|          | maxE    | 0.967   |
-|          | MAE     | 0.020   |
-| LFSD     |S-measure| 0.862   |
-|          | maxF    | 0.861   |
-|          | maxE    | 0.894   |
-|          | MAE     | 0.074   |
-| SIP      |S-measure| 0.879   |
-|          | maxF    | 0.889   |
-|          | maxE    | 0.925   |
-|          | MAE     | 0.050   |  
+|          | maxF    | 0.900   |
+|          | maxE    | 0.919   |
+|          | MAE     | 0.038   |
+| NLPR     |S-measure| 0.959   |
+|          | maxF    | 0.922   |
+|          | maxE    | 0.979   |
+|          | MAE     | 0.014   |
+| STERE    |S-measure| 0.908   |
+|          | maxF    | 0.877   |
+|          | maxE    | 0.921   |
+|          | MAE     | 0.041   |
+| RGBD135  |S-measure| 0.932   |
+|          | maxF    | 0.907   |
+|          | maxE    | 0.968   |
+|          | MAE     | 0.021   |
+| LFSD     |S-measure| 0.855   |
+|          | maxF    | 0.855   |
+|          | maxE    | 0.885   |
+|          | MAE     | 0.078   |
+| SSD      |S-measure| 0.870   |
+|          | maxF    | 0.830   |
+|          | maxE    | 0.901   |
+|          | MAE     | 0.051   |  
 
 # Citation
 Please cite our paper if you find the work useful:<br>
 
-        @InProceedings{Fu_2020_CVPR,
-        author = {Keren Fu, Deng-Ping Fan, Ge-Peng Ji, Qijun Zhao},
-        title = {JL-DCF: Joint Learning and Densely-Cooperative Fusion Framework for RGB-D Salient Object Detection},
-        booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-        pages={3052--3062},
-        year = {2020}
+        @InProceedings{Xing_2021_ICONIP,
+        author = {Xing Sheng, Zhuoran Zheng, Qiong Wu, Chunmeng Kang, Yunliang Zhuang, Lei Lyu, Chen Lyu},
+        title = {Saliency Detection Framework Based on Deep Enhanced Attention Network},
+        booktitle = {International Conference on Neural Information Processing (ICONIP)},
+        pages={274--286},
+        year = {2021}
         }
 
 # Benchmark RGB-D SOD
