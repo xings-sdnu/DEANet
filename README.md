@@ -34,8 +34,8 @@ The training log is saved in the 'log' folder. If you want to see the learning c
 [vgg_conv1](https://pan.baidu.com/s/1CJyNALzPIAiHrDSMcRO2yA), password: rllb<br>
 
 # Trained model for testing
-Baidu Pan: [DEANet-pytorch](https://pan.baidu.com/s/1KoxUvnnM5zJoFPEkrv7b1Q), password: jdpb<br>
-Google Drive: https://drive.google.com/open?id=12u37yz-031unDPJoKaZ0goK8BtPP-6Cj<br>
+Baidu Pan: [DEANet-pytorch](https://pan.baidu.com/s/103_1FWvTqWygi8e7XLGgSw), password: svyr<br>
+Google Drive: <br>
 
 # DEANet-pytorch saliency maps
 Baidu Pan: [Saliency maps](https://pan.baidu.com/s/1XncwFhgNLxISZ5kIM1eY8w), password: maft<br>
