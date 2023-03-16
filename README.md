@@ -1,6 +1,6 @@
 # DEANet-pytorch
 
-Pytorch implementation for Saliency Detection Framework Based on Deep Enhanced Attention Network (ICONIP 2021)]
+Pytorch implementation for Saliency Detection Framework Based on Deep Enhanced Attention Network (ICONIP 2021)
 
 # Requirements
 * Python 3.7 <br>
