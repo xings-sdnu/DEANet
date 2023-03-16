@@ -13,7 +13,7 @@ This is the Pytorch implementation of DEANet. It has been trained and tested on 
 and it should also work on Linux but we didn't try. 
 
 ## To Train 
-* Download the pre-trained ImageNet backbone (resnet101, Baidu YunPan[resnet101](https://pan.baidu.com/s/1VEID4futYro5Up2Fbh4HoQ), password:93q7, and put it in the 'pretrained' folder
+* Download the pre-trained ImageNet backbone (resnet101, Baidu YunPan: [resnet101](https://pan.baidu.com/s/1VEID4futYro5Up2Fbh4HoQ), password:93q7, and put it in the 'pretrained' folder
 * Download the training dataset and modify the 'train_root' and 'train_list' in the `main.py`
 * Set 'mode' to 'train'
 * Run `main.py`
