@@ -38,8 +38,8 @@ Baidu Pan: [DEANet-pytorch](https://pan.baidu.com/s/1KoxUvnnM5zJoFPEkrv7b1Q), pa
 Google Drive: https://drive.google.com/open?id=12u37yz-031unDPJoKaZ0goK8BtPP-6Cj<br>
 
 # DEANet-pytorch saliency maps
-Baidu Pan: [Saliency maps](https://pan.baidu.com/s/1IzAjbbhoAdhsg-2B_gSwqw), password: 4nqr<br>
-Google Drive: https://drive.google.com/open?id=1mHMN36aI5zNt50DQBivSDyYvCQ9eeGhP<br>
+Baidu Pan: [Saliency maps](链接：https://pan.baidu.com/s/1XncwFhgNLxISZ5kIM1eY8w), password: maft<br>
+Google Drive: <br>
 
 # Dataset
 Baidu Pan:<br>
