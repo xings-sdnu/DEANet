@@ -2,7 +2,6 @@ import torch
 import torch.nn.functional as F
 
 
-# 边缘保存损失函数
 def edge_loss(logits, gt):
     sigmoid_p = torch.sigmoid(logits)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
