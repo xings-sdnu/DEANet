@@ -26,8 +26,8 @@ Pytorch implementation for [Saliency Detection Framework Based on Deep Enhanced 
 * Cuda 11.0
 
 # Usage
-This is the Pytorch implementation of DEANet. It has been trained and tested on Windows (Win10 + Cuda 11 + Python 3.7 + Pytorch 1.8.1),
-and it should also work on Linux but we didn't try. 
+This is the Pytorch implementation of DEANet. It has been trained and tested on Linux (Ubuntu 18.02 + Cuda 11.7 + Python 3.7 + Pytorch 1.8.0),
+and it can also work on Win10. 
 
 ## Training
 * Download the pre-trained ImageNet backbone (resnet101, Baidu YunPan: [resnet101](https://pan.baidu.com/s/1VEID4futYro5Up2Fbh4HoQ), password:93q7, and put it in the 'pretrained' folder
